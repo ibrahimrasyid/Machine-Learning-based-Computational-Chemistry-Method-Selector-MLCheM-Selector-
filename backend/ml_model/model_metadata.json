@@ -1,0 +1,126 @@
+{
+  "models": {
+    "classifier": "xgb_classifier.pkl",
+    "regressor": "xgb_regressor.pkl"
+  },
+  "encoders": {
+    "property": "le_property.pkl",
+    "subproperty": "le_subproperty.pkl",
+    "method": "le_method.pkl"
+  },
+  "level_to_pct": {
+    "1": 20,
+    "2": 40,
+    "3": 60,
+    "4": 80,
+    "5": 100
+  },
+  "level_labels": {
+    "1": "Very Low  (20%)",
+    "2": "Low       (40%)",
+    "3": "Medium    (60%)",
+    "4": "High      (80%)",
+    "5": "Very High (100%)"
+  },
+  "methods": [
+    "Ab-initio",
+    "COSMO-RS",
+    "DFT",
+    "MC",
+    "MD",
+    "QM/MM"
+  ],
+  "features": [
+    "property_enc",
+    "sub_property_enc",
+    "accuracy_pct",
+    "cost_pct"
+  ],
+  "performance": {
+    "classifier_accuracy": 0.7585,
+    "classifier_cv_mean": 0.7535,
+    "regressor_r2_overall": 0.9764,
+    "regressor_r2_per_method": {
+      "Ab-initio": 0.9955,
+      "COSMO-RS": 0.981,
+      "DFT": 0.9848,
+      "MC": 0.9846,
+      "MD": 0.9791,
+      "QM/MM": 0.9337
+    }
+  },
+  "property_to_sub": {
+    "THERMODYNAMIC PROPERTIES": [
+      "Activity coefficient",
+      "Enthalpy",
+      "Entropy",
+      "Free energy of mixing",
+      "Fugacity / chemical potential",
+      "Gibbs free energy",
+      "Heat capacity",
+      "Henry's constant",
+      "Phase equilibria",
+      "Solubility",
+      "Solvation free energy"
+    ],
+    "KINETIC & REACTION PROPERTIES": [
+      "Activation energy",
+      "Catalytic activity",
+      "Reaction mechanism",
+      "Reaction pathway",
+      "Reaction rate constant",
+      "Transition state"
+    ],
+    "TRANSPORT PROPERTIES": [
+      "Diffusivity",
+      "Ionic conductivity",
+      "Mass transfer coefficient",
+      "Permeability",
+      "Thermal conductivity",
+      "Viscosity"
+    ],
+    "STRUCTURAL & ELECTRONIC PROPERTIES": [
+      "Band gap",
+      "Bond length/angle",
+      "Charge distribution",
+      "Crystal structure",
+      "Density of states",
+      "Electronic structure",
+      "Lattice parameters",
+      "Molecular geometry",
+      "Surface structure"
+    ],
+    "MOLECULAR INTERACTION PROPERTIES": [
+      "Adsorption energy",
+      "Binding energy",
+      "Electrostatic interactions",
+      "Hydrogen bonding",
+      "Intermolecular forces",
+      "Solute-solvent interaction",
+      "Van der Waals interactions"
+    ],
+    "ADSORPTION & POROUS MEDIA PROPERTIES": [
+      "Adsorption capacity",
+      "Adsorption isotherms",
+      "Adsorption selectivity",
+      "Competitive adsorption",
+      "Pore filling behavior",
+      "Surface coverage"
+    ],
+    "MULTICOMPONENT & PROCESS-LEVEL PROPERTIES": [
+      "Coupled transport-reaction",
+      "Mixture selectivity",
+      "Phase behavior of mixtures",
+      "Process thermodynamics",
+      "Scale-up prediction"
+    ],
+    "ENERGY & ENVIRONMENTAL PROPERTIES": [
+      "Battery material properties",
+      "CO2 absorption capacity",
+      "Electrochemical properties",
+      "Gas separation selectivity",
+      "H2S removal efficiency",
+      "Membrane performance"
+    ]
+  }
+}
