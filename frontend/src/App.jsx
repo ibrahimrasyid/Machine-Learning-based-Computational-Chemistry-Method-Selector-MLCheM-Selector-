@@ -329,7 +329,7 @@ export default function App() {
         <div style={{width:40,height:40,borderRadius:10,background:"linear-gradient(135deg,#0ea5e9,#6366f1)",
           display:"flex",alignItems:"center",justifyContent:"center",fontSize:20,flexShrink:0}}>⚗</div>
         <div>
-          <div style={{fontSize:17,fontWeight:700,color:"#f0f9ff"}}>CC Tool Evaluation System</div>
+          <div style={{fontSize:17,fontWeight:700,color:"#f0f9ff"}}>MLCheM Selector</div>
           <div style={{fontSize:10,color:"#64748b",letterSpacing:1.5,marginTop:2}}>ML MODEL vs AI — SIDE BY SIDE COMPARISON</div>
         </div>
         <div style={{marginLeft:"auto",display:"flex",gap:8}}>

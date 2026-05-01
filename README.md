@@ -1,4 +1,4 @@
-# CC Tool Evaluation System v3.0 — Hybrid ML + AI
+# MLCheM Selector v3.0 — Hybrid ML + AI
 
 ## HOW TO RUN (3 terminals, in order)
 
