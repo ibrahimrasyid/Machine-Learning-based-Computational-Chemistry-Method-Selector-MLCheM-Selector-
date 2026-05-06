@@ -231,19 +231,3 @@ cc-tool-upgrade/
 | Accuracy | Within ±1 step: 100% on training data |
 | Data Source | CC_Tools_used_in_Engineering.xlsx + domain knowledge |
 
----
-
-## 📄 License
-
-MIT License — free to use for academic and research purposes.
-
----
-
-## 👤 Author
-
-**Ibrahim Rasyid**
-President University · MIT-2024 Artificial Intelligence
-
----
-
-> 💡 **Quick tip:** If you just want to explore the system without setting anything up, use the live demo at [cc-tool-upgrade.vercel.app](https://cc-tool-upgrade.vercel.app)
